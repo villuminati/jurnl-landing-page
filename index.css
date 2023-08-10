@@ -31,7 +31,7 @@ body {
   z-index: 1; /* Optional: To ensure the text is above the canvas */
   font-size: 200px;
   font-family: "Belleza", sans-serif; /* Fallback to sans-serif in case "Belleza" fails to load */
-  color: #dbdbdb; /* Set the text color to #dbdbdb */
+  color: #ffffff; /* Set the text color to #dbdbdb */
 }
 .small-centered-text {
   position: absolute;
@@ -44,7 +44,7 @@ body {
   z-index: 1; /* Optional: To ensure the text is above the canvas */
   font-size: 40px;
   font-family: "Belleza", sans-serif; /* Fallback to sans-serif in case "Belleza" fails to load */
-  color: #dbdbdb; /* Set the text color to #dbdbdb */
+  color: #ffffff; /* Set the text color to #dbdbdb */
 }
 .updates-centered-text {
   position: absolute;
@@ -57,7 +57,7 @@ body {
   z-index: 1; /* Optional: To ensure the text is above the canvas */
   font-size: 30px;
   font-family: "Belleza", sans-serif; /* Fallback to sans-serif in case "Belleza" fails to load */
-  color: #dbdbdb; /* Set the text color to #dbdbdb */
+  color: #ffffff; /* Set the text color to #dbdbdb */
 }
 
 .twitter-logo {
