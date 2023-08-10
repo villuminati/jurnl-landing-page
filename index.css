@@ -1,0 +1,74 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%; /* Ensure both html and body cover full viewport height */
+  width: 100%; /* Ensure both html and body cover full viewport width */
+  overflow: hidden; /* Prevents possible scrollbars */
+}
+
+.canvas-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#canvas {
+  display: block; /* Removes default canvas margin */
+  width: 100%;
+  height: 100%;
+  background: #e0e0e0; /* Optional: To see the canvas clearly */
+}
+
+.centered-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text both vertically and horizontally */
+  z-index: 1; /* Optional: To ensure the text is above the canvas */
+  font-size: 200px;
+  font-family: "Belleza", sans-serif; /* Fallback to sans-serif in case "Belleza" fails to load */
+  color: #dbdbdb; /* Set the text color to #dbdbdb */
+}
+.small-centered-text {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text both vertically and horizontally */
+  z-index: 1; /* Optional: To ensure the text is above the canvas */
+  font-size: 40px;
+  font-family: "Belleza", sans-serif; /* Fallback to sans-serif in case "Belleza" fails to load */
+  color: #dbdbdb; /* Set the text color to #dbdbdb */
+}
+.updates-centered-text {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text both vertically and horizontally */
+  z-index: 1; /* Optional: To ensure the text is above the canvas */
+  font-size: 30px;
+  font-family: "Belleza", sans-serif; /* Fallback to sans-serif in case "Belleza" fails to load */
+  color: #dbdbdb; /* Set the text color to #dbdbdb */
+}
+
+.twitter-logo {
+  position: absolute; /* Position it relative to the .canvas-container */
+  bottom: 5%; /* Adjust as needed for distance from bottom */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(
+    -50%
+  ); /* Shifts the logo to the left half its width to ensure it's centered */
+  background-color: transparent;
+  z-index: 1; /* Optional: To ensure the text is above the canvas */
+  width: 50px;
+  height: 50px;
+}
